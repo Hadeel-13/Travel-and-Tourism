@@ -1,0 +1,78 @@
+#destination-popover .css-3bmhjh-MuiPaper-root-MuiPopover-paper {
+    background-color: #343a40e5 !important;
+    color: #fff !important;
+    padding: 15px 19px;
+    top: 230px !important;
+    height: 360px !important;
+    left: 180px !important;
+}
+@media (min-width: 200px){
+    #destination-popover .css-3bmhjh-MuiPaper-root-MuiPopover-paper {
+        left: 16px !important;
+    }
+}
+@media (min-width: 1020px){
+    #destination-popover .css-3bmhjh-MuiPaper-root-MuiPopover-paper {
+        left: 180px !important;
+    }
+}
+#person-popover .css-3bmhjh-MuiPaper-root-MuiPopover-paper {
+    background-color: #343a40e5 !important;
+    color: #fff !important;
+    padding: 15px;
+    top: 360px !important;
+    height: 230px !important;
+}
+#depart-popover .css-3bmhjh-MuiPaper-root-MuiPopover-paper {
+    background-color: #343a40e5 !important;
+    color: #fff !important;
+    padding: 15px;
+    top: 155px !important;
+    /* height: 230px !important; */
+}
+/* Button */
+.css-wxlves-MuiButtonBase-root-MuiButton-root:hover {
+    background-color: transparent !important;
+}
+.css-1ap7rin-MuiButtonBase-root-MuiPickersDay-root-MuiDateRangePickerDay-day {
+    color: #fff !important;
+}
+
+.css-1mpzc95-MuiButtonBase-root-MuiPickersDay-root-MuiDateRangePickerDay-day.Mui-selected {
+    color: #fff;
+    /* background-color: #343A40; */
+    background: linear-gradient(
+        to top,
+        #b6912100,
+        #edc43175,
+        #ffe169
+    ) !important;
+    font-weight: 500;
+    -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.css-1gd52mv-MuiDateRangePickerDay-root {
+    border-radius: 0;
+    color: #fff;
+    background: linear-gradient(
+        to top,
+        #b6912100,
+        #edc43175,
+        #ffe169
+    ) !important;
+}
+.MuiDateRangePickerDay-root.MuiDateRangePickerDay-rangeIntervalDayHighlight.MuiDateRangePickerDay-rangeIntervalDayHighlightStart.css-1s6ggdi-MuiDateRangePickerDay-root
+    .MuiButtonBase-root.MuiPickersDay-root.Mui-selected.MuiDateRangePickerDay-day.css-1mpzc95-MuiButtonBase-root-MuiPickersDay-root-MuiDateRangePickerDay-day {
+    background-color: rgb(36, 40, 44);
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+.MuiDateRangePickerDay-root.MuiDateRangePickerDay-rangeIntervalDayHighlight.MuiDateRangePickerDay-rangeIntervalDayHighlightEnd.css-6vmsow-MuiDateRangePickerDay-root
+    .MuiButtonBase-root.MuiPickersDay-root.Mui-selected.MuiDateRangePickerDay-day.css-1mpzc95-MuiButtonBase-root-MuiPickersDay-root-MuiDateRangePickerDay-day {
+    background-color: rgb(36, 40, 44);
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+.css-15p5jj2-MuiTypography-root-MuiDayCalendar-weekDayLabel {
+    color: #D6D6D6 !important;
+}

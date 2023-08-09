@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: "Figtree";
+    src: url("/src/assets/fontFigtree/Figtree-Light.ttf");
+    font-weight: 300;
+}
+@font-face {
+    font-family: "Figtree";
+    src: url("/src/assets/fontFigtree/Figtree-Regular.ttf");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Figtree";
+    src: url("/src/assets/fontFigtree/Figtree-Medium.ttf");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Figtree";
+    src: url("/src/assets/fontFigtree/Figtree-SemiBold.ttf");
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Figtree";
+    src: url("/src/assets/fontFigtree/Figtree-Bold.ttf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Figtree";
+    src: url("/src/assets/fontFigtree/Figtree-ExtraBold.ttf");
+    font-weight: 800;
+}
+@font-face {
+    font-family: "Figtree";
+    src: url("/src/assets/fontFigtree/Figtree-Black.ttf");
+    font-weight: 900;
+}
