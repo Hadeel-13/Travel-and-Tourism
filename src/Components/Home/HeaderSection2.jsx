@@ -141,9 +141,8 @@ export default function HeaderSection2() {
                                         <Typography component={"div"}>
                                             <Typography
                                                 sx={{
-                                                    color: "myGray500.main",
+                                                    color: "gray",
                                                     fontWeight: 400,
-
                                                     mb: 1,
                                                     ml: 1,
                                                 }}
@@ -184,9 +183,8 @@ export default function HeaderSection2() {
                                         <Typography component={"div"}>
                                             <Typography
                                                 sx={{
-                                                    color: "myGray500.main",
+                                                    color: "gray",
                                                     fontWeight: 400,
-
                                                     mb: 1,
                                                     ml: 1,
                                                 }}
@@ -228,9 +226,8 @@ export default function HeaderSection2() {
                                         <Typography component={"div"}>
                                             <Typography
                                                 sx={{
-                                                    color: "myGray500.main",
+                                                    color: "gray",
                                                     fontWeight: 400,
-
                                                     mb: 1,
                                                     ml: 1,
                                                 }}
