@@ -1,4 +1,3 @@
-import "./HeaderSection2.css";
 import onePerson from "../../assets/images/icons/1Person.png";
 import twoPerson from "../../assets/images/icons/2Person.png";
 import threePerson from "../../assets/images/icons/3Person.png";
@@ -127,6 +126,7 @@ export default function HeaderSection2() {
                                 anchorEl={anchorElDestination}
                                 handleClick={handleClickDestination}
                                 handleClose={handleCloseDestination}
+                                sx={{ height: 365, left: { xs: 0, lg: 180 } }}
                             >
                                 <Box sx={{ flexGrow: 1 }}>
                                     <Stack
@@ -143,7 +143,7 @@ export default function HeaderSection2() {
                                                 sx={{
                                                     color: "myGray500.main",
                                                     fontWeight: 400,
-                                                    
+
                                                     mb: 1,
                                                     ml: 1,
                                                 }}
@@ -186,7 +186,7 @@ export default function HeaderSection2() {
                                                 sx={{
                                                     color: "myGray500.main",
                                                     fontWeight: 400,
-                                                    
+
                                                     mb: 1,
                                                     ml: 1,
                                                 }}
@@ -230,7 +230,7 @@ export default function HeaderSection2() {
                                                 sx={{
                                                     color: "myGray500.main",
                                                     fontWeight: 400,
-                                                    
+
                                                     mb: 1,
                                                     ml: 1,
                                                 }}

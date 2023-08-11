@@ -1,5 +1,25 @@
 import PropTypes from "prop-types";
 import { ExpandMore, Close } from "@mui/icons-material";
+import { createTheme, ThemeProvider } from "@mui/material/styles";
+
+const theme1 = createTheme({
+    components: {
+        // Name of the component
+        MuiPopover: {
+            styleOverrides: {
+                // Name of the slot
+                paper: {
+                    // Some CSS
+                    backgroundColor: "#343a40e5",
+                    padding: 15,
+                },
+            },
+        },
+    },
+    palette: {
+        mode: "dark",
+    },
+});
 import {
     Box,
     Button,
@@ -176,6 +196,7 @@ export function ButtonWithPopup({
     handleClick,
     handleClose,
     anchorEl,
+    sx,
 }) {
     return (
         <>
@@ -206,22 +227,26 @@ export function ButtonWithPopup({
                         <ExpandMore />
                     </div>
                 </Button>
-                <Popover
-                    id={id}
-                    open={Boolean(anchorEl)}
-                    anchorEl={anchorEl}
-                    onClose={handleClose}
-                    anchorOrigin={{
-                        vertical: "top",
-                        horizontal: "center",
-                    }}
-                    transformOrigin={{
-                        vertical: "bottom",
-                        horizontal: "center",
-                    }}
-                >
-                    {children}
-                </Popover>
+                <ThemeProvider theme={theme1}>
+                    <Popover
+                        id={id}
+                        itemID={id}
+                        open={Boolean(anchorEl)}
+                        anchorEl={anchorEl}
+                        onClose={handleClose}
+                        anchorOrigin={{
+                            vertical: "top",
+                            horizontal: "center",
+                        }}
+                        transformOrigin={{
+                            vertical: "bottom",
+                            horizontal: "center",
+                        }}
+                        sx={sx}
+                    >
+                        {children}
+                    </Popover>
+                </ThemeProvider>
             </Typography>
         </>
     );
@@ -234,6 +259,7 @@ ButtonWithPopup.propTypes = {
     handleClose: PropTypes.func.isRequired,
     anchorEl: PropTypes.any,
     lebel: PropTypes.string.isRequired,
+    sx: PropTypes.any,
 };
 const style = {
     px: 6,

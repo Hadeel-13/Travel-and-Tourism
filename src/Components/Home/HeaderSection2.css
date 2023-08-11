@@ -1,35 +1,3 @@
-#destination-popover .css-3bmhjh-MuiPaper-root-MuiPopover-paper {
-    background-color: #343a40e5 !important;
-    color: #fff !important;
-    padding: 15px 19px;
-    top: 230px !important;
-    height: 360px !important;
-    left: 180px !important;
-}
-@media (min-width: 200px){
-    #destination-popover .css-3bmhjh-MuiPaper-root-MuiPopover-paper {
-        left: 16px !important;
-    }
-}
-@media (min-width: 1020px){
-    #destination-popover .css-3bmhjh-MuiPaper-root-MuiPopover-paper {
-        left: 180px !important;
-    }
-}
-#person-popover .css-3bmhjh-MuiPaper-root-MuiPopover-paper {
-    background-color: #343a40e5 !important;
-    color: #fff !important;
-    padding: 15px;
-    top: 360px !important;
-    height: 230px !important;
-}
-#depart-popover .css-3bmhjh-MuiPaper-root-MuiPopover-paper {
-    background-color: #343a40e5 !important;
-    color: #fff !important;
-    padding: 15px;
-    top: 155px !important;
-    /* height: 230px !important; */
-}
 /* Button */
 .css-wxlves-MuiButtonBase-root-MuiButton-root:hover {
     background-color: transparent !important;
