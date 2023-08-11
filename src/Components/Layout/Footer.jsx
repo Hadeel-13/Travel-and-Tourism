@@ -1,6 +1,6 @@
 import logoGray from "../../assets/images/svg/logoGray.svg";
 import { Stack, Typography, IconButton, Tooltip } from "@mui/material";
-import { ForwardToInbox, GitHub, PhoneInTalk } from "@mui/icons-material";
+import { ForwardToInbox, GitHub, LinkedIn, PhoneInTalk } from "@mui/icons-material";
 export default function Footer() {
     const informations = [
         {
@@ -32,14 +32,19 @@ export default function Footer() {
             icon: <PhoneInTalk />,
         },
         {
+            title: "My Email",
+            href: "mailto:mira13ha@gmail.com",
+            icon: <ForwardToInbox />,
+        },
+        {
             title: "My GitHub",
             href: "https://github.com/Hadeel-13",
             icon: <GitHub />,
         },
         {
-            title: "My Email",
-            href: "mailto:mira13ha@gmail.com",
-            icon: <ForwardToInbox />,
+            title: "My LinkedIn",
+            href: "https://www.linkedin.com/in/hadeel-i-5560851ba/",
+            icon: <LinkedIn />,
         },
     ];
     return (
