@@ -275,7 +275,7 @@ const style = {
     borderRadius: 5,
     pb: 4,
     pt: 1,
-    overflowY: { sm: "scroll", lg: "hidden" },
+    overflowY: { xs: "scroll", lg: "hidden" },
 };
 export function ButtonWithModal({
     color,
