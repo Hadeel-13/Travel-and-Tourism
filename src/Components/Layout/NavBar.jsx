@@ -122,15 +122,15 @@ export default function NavBar() {
                                 <MenuItem
                                     key={page.title}
                                     onClick={() => {
-                                        setTimeout(()=>{
+                                        setTimeout(() => {
                                             document
-                                            .getElementById(`${page.link}`)
-                                            .scrollIntoView({
-                                                behavior: "smooth",
-                                                block: "center",
-                                            });
-                                        },0.1)
-                                        
+                                                .getElementById(`${page.link}`)
+                                                .scrollIntoView({
+                                                    behavior: "smooth",
+                                                    block: "center",
+                                                });
+                                        }, 0.1);
+
                                         handleCloseNavMenu();
                                     }}
                                 >
@@ -372,6 +372,8 @@ export default function NavBar() {
                                 <Stack
                                     direction={"row"}
                                     justifyContent={"space-between"}
+                                    flexWrap={"wrap"}
+                                    gap={3}
                                 >
                                     <div>Welcome to Log in</div>
                                     <Stack direction={"column"}>
@@ -410,6 +412,8 @@ export default function NavBar() {
                                         direction={"row"}
                                         justifyContent={"space-between"}
                                         alignItems={"center"}
+                                        flexWrap={"wrap"}
+                                        gap={3}
                                     >
                                         <FormGroup>
                                             <FormControlLabel
