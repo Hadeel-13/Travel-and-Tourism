@@ -14,7 +14,11 @@ export default function DiscoverCard({ image, title, subTitle }) {
             }}
         >
             <CardMedia
-                sx={{ width:  { xs: "auto", sm: 270 }, height: 320 }}
+                sx={{
+                    width: { xs: "auto", sm: 270 },
+                    height: 320,
+                    borderRadius: 5,
+                }}
                 image={image}
                 title={title}
             />

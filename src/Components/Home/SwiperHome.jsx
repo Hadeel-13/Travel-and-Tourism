@@ -8,10 +8,10 @@ import "./SwiperHome.css";
 
 // import required modules
 import { Autoplay, Pagination } from "swiper/modules";
-import slider1 from "../../assets/images/locations/Slider1.png";
-import slider2 from "../../assets/images/locations/Slider2.png";
-import slider3 from "../../assets/images/locations/Slider3.png";
-import slider4 from "../../assets/images/locations/Slider4.png";
+import slider1 from "../../assets/images/locations/Slider1.jpg";
+import slider2 from "../../assets/images/locations/Slider2.jpg";
+import slider3 from "../../assets/images/locations/Slider3.jpg";
+import slider4 from "../../assets/images/locations/Slider4.jpg";
 export default function SwiperHome() {
     return (
         <>

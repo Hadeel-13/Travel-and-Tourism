@@ -1,7 +1,7 @@
-import image1 from "../../assets/images/locations/Iceland.png";
-import image2 from "../../assets/images/locations/Italy.png";
-import image3 from "../../assets/images/locations/Patagonia.png";
-import image4 from "../../assets/images/locations/Dubai.png";
+import image1 from "../../assets/images/locations/Iceland.jpg";
+import image2 from "../../assets/images/locations/Italy.jpg";
+import image3 from "../../assets/images/locations/Patagonia.jpg";
+import image4 from "../../assets/images/locations/Dubai.jpg";
 import DiscoverCard from "./DiscoverCard";
 
 import { Grid, Typography } from "@mui/material";
