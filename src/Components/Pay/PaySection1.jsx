@@ -1,6 +1,6 @@
 import logoGray from "../../assets/images/svg/logoGray.svg";
-import Extra from "../../assets/images/locations/image1.png";
-import Dubai from "../../assets/images/locations/image2.png";
+import Extra from "../../assets/images/locations/image1.jpg";
+import Dubai from "../../assets/images/locations/image2.jpg";
 import { Box, Stack, Typography } from "@mui/material";
 import TravelCard from "./TravelCard";
 
