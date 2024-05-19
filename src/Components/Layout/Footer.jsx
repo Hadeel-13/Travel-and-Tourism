@@ -20,7 +20,7 @@ export default function Footer() {
             title: "Contact Info",
             links: [
                 "+963 998 630 508",
-                "mira13ha@gmail.com",
+                "hadeel13ibrahim@gmail.com",
                 "20000, Aleppo, Syria",
             ],
         },
@@ -33,7 +33,7 @@ export default function Footer() {
         },
         {
             title: "My Email",
-            href: "mailto:mira13ha@gmail.com",
+            href: "mailto:hadeel13ibrahim@gmail.com",
             icon: <ForwardToInbox />,
         },
         {
